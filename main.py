@@ -1,6 +1,6 @@
 Name_Array = []
 Price_Array = []
-x = 0
+
 Group_name = input("Please insert the name of your group - ")
 
 Number_of_pupils = int(input("Please insert the number of people in your group - "))
