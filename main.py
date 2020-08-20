@@ -7,10 +7,6 @@ Group_name = input("Please insert the name of your group - ")
 
 Number_of_pupils = int(input("Please insert the number of people in your group - "))
 
-while Number_of_pupils != int:
-  print ("ERROR - Please enter a number between 4 and 10")
-  Number_of_pupils = int(input("Please insert the number of people in your group - "))
-
 while Number_of_pupils <4 or Number_of_pupils >10:
 
   print ("ERROR - Please enter a number between 4 and 10")
