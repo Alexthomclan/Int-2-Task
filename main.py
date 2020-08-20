@@ -1,3 +1,5 @@
+#19/08/2020
+#Alex Thom
 Name_Array = []
 Price_Array = []
 
