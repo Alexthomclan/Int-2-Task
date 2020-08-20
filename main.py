@@ -5,13 +5,15 @@ Price_Array = []
 
 Group_name = input("Please insert the name of your group - ")
 
-Number_of_pupils = int(input("Please insert the number of people in your group - "))
+Number_of_pupils = float(input("Please insert the number of people in your group - "))
 
-while Number_of_pupils <4 or Number_of_pupils >10:
+while Number_of_pupils <4 or Number_of_pupils >10 or not Number_of_pupils.is_integer():
 
   print ("ERROR - Please enter a number between 4 and 10")
 
-  Number_of_pupils = int(input("Please insert the number of people in your group - "))
+  Number_of_pupils = float(input("Please insert the number of people in your group - "))
+
+Number_of_pupils = int(Number_of_pupils)
 
 for counter in range(Number_of_pupils):
 
